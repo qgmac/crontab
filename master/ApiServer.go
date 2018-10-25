@@ -16,8 +16,9 @@ type ApiServer struct {
 	httpServer *http.Server
 }
 
+//保存任务接口
 func handleJobSave(response http.ResponseWriter,r *http.Request){
-
+	//任务保存到ETCD中
 }
 
 //初始化服务
